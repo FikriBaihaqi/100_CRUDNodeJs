@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
     res.send ("selamat siangggggg");
 });
 
+
 app.use(bodyParser.json());
 app.listen(port,() =>
     console.log(` Server berjalan di port : http://localhost:${port} `));
